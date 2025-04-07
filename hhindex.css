@@ -113,16 +113,8 @@ nav :hover {
     height: 300px;
     object-fit: cover;
 }
-.lists{
-    display: flex;
-    gap: 10px;
-}
-.movie{
-    width: 200px;
-    height: 250px;
-    background-color: rgb(48, 49, 49);
-    border-radius: 25px;
-}
+
+
 .para {
     display: flex;
     color: white;
@@ -131,3 +123,39 @@ nav :hover {
    padding-bottom: 10px;
 
 }
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    margin-top: 10px;  
+    margin-bottom: 10px; 
+
+  }
+  
+  .movie {
+    width: 150px; 
+    height: 220px;
+    overflow: hidden; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .movie img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    display: block; 
+    object-fit: cover;
+
+  }
+.movie p {
+    color: white;
+    font-size: large;
+    margin-top: 30px;
+}
+.movie:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  }
