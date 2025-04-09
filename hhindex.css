@@ -1,8 +1,10 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
 
 body {
     font-family:  system-ui, 
@@ -79,7 +81,7 @@ nav :hover {
 }
 
 .play-btn:hover {
-    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent on hover */
+    background-color: rgba(255, 255, 255, 0.8); 
     transform: scale(1.05);
 }
 
@@ -158,4 +160,25 @@ nav :hover {
 .movie:hover {
     transform: scale(1.08);
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  } 
+  
+  .form-footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #8c8c8c;
+    text-align: center;
   }
+  .site-footer {
+    
+    color: #757575;
+    padding: 40px 20px;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    margin-left: 200px;
+    gap: 20px;
+  }
+  .site-footer a {
+    color: rgb(226, 219, 219)
+  }
+  
